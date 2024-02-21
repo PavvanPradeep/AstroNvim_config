@@ -1,4 +1,5 @@
 return {
+
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -18,7 +19,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  --colorscheme = "astrodark",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -47,6 +49,7 @@ return {
       -- filter = function(client) -- fully override the default formatting function
       --   return true
       -- end
+      --
     },
     -- enable servers that you already have installed without mason
     servers = {
